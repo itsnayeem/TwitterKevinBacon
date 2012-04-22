@@ -9,7 +9,7 @@ To run this program:
 
 	$ java -cp argo-2.23.jar:. Crawler -source <user_id> -target <user_id>
 
-Where user_id is the numeric user_id for the twitter accounts.
+Where **user_id** is the numeric **user_id** for the twitter accounts.
 
 To find a numeric **user_id**, use this api call:
 `https://api.twitter.com/users/lookup.json?screen_name=<username>`
@@ -25,7 +25,7 @@ Libraries used: **argo-2.23.jar**
 This program is a web crawler with the specific purpose of connecting Twitter's JSON API. There is
 a thread pool with n amount of worker threads. When started the program, there is a source **user_id**
 and a target **user_id**. When the source **user_id** is processed, it will produce either an id that matches
-the target **user_id* or a list of ids.
+the target **user_id** or a list of ids.
 
 ### Hazards ###
 
